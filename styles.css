@@ -1,3 +1,7 @@
+body {
+  margin-top: 20px;
+  background: #ccc; }
+
 .row {
   width: 100%; }
 
@@ -8,7 +12,8 @@
     text-transform: uppercase;
     text-align: center;
     font-family: 'Poiret One', cursive;
-    font-size: 30px; }
+    font-size: 30px;
+    color: gray; }
 
 .newListItem {
   width: 78%;
@@ -17,7 +22,8 @@
 
 .listItem {
   font-size: 25px;
-  font-family: 'Poiret One', cursive; }
+  font-family: 'Poiret One', cursive;
+  color: gray; }
 
 .complete {
   text-decoration: line-through;
@@ -48,3 +54,41 @@
 
 .hidden-class {
   display: none; }
+
+.col-lg-12 {
+  width: 85%;
+  height: 100%;
+  background: #FFF;
+  margin: 40px auto;
+  border-style: groove; }
+
+.effect5 {
+  position: relative; }
+
+.effect5:before, .effect5:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg); }
+
+.effect5:after {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto; }
